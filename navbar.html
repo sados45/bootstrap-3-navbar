@@ -10,8 +10,8 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--navbar-expand-lg:large ekran demek laptop ve masaüstü icin. mg:ise midium ekran tabletler icin. sg: ise small ekran telefonlar icin oluyor ÖNEMLI BILGI:-->
-        <a href="" class=navbar-brand>Navbar</a> <!-- navbar-brand demek marka ismi olan en solda yer alan ismi farkli sekilde navbardaki diger yazilardan bira daha büyük yazilmasina yardimci oluyor.-->
-        <button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-controls="#navbarSupportedContent" aria-label="toggle navigation">
+        <a href="#" class="navbar-brand">Navbar</a> <!-- navbar-brand demek marka ismi olan en solda yer alan ismi farkli sekilde navbardaki diger yazilardan bira daha büyük yazilmasina yardimci oluyor.-->
+        <button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-controls="#navbarSupportedContent" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -19,13 +19,13 @@
             <!--yukaridaki özellik menu acma özelligini 3cizgi getiriyor.-->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active"><!--nav-item active ilgili tusun aktif görunmesini sagliyor.-->
-                    <a class="nav-link" href="a">Home</a> <!--nav-link özelligi ile Home yazisi beyaz yazdirdik. digerlerinden daha cok ön plana cikti.-->
+                    <a class="nav-link" href="#">Home</a> <!--nav-link özelligi ile Home yazisi beyaz yazdirdik. digerlerinden daha cok ön plana cikti.-->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="a">Link</a> <!--burada verilen nav-link ile yazi gri oldu -->
+                    <a class="nav-link" href="#">Link</a> <!--burada verilen nav-link ile yazi gri oldu -->
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false" href="a">Dropdown</a>
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown</a>
                     <!--burada nav-link dropdown-toggle yaparak tiklayarak altinda sayfa acilan bir buton özelligi olusturmak istiyoruz.devamin daki href e kadar olan bölüm id vererek ic baglantisini saglayarak dropdown icinde yer alacak alt basliklari saklamak ve onun icinde dizaqyn etmek icin yazildi.-->
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <!--yukaridaki verdigimiz id ismi ile baglanti kurduk. böylece bu bölüm ile menü olustu -->
                         <a class="dropdown-item" href="">Action</a>
@@ -39,8 +39,8 @@
                 </li>
             </ul>
             <form class="form-inline my-lg-0 my-2" action="">
-                <input class="form-control" mr-sm-2type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sn-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2"type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
 
 
